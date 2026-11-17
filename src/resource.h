@@ -1,0 +1,9 @@
+#pragma once
+
+#define IDI_APP_ICON 101
+
+#define IDM_EDIT_MODE 40001
+#define IDM_STARTUP 40002
+#define IDM_EXIT 40003
+#define IDM_TOPMOST 40004
+#define IDM_HIDE_ON_HOVER 40005

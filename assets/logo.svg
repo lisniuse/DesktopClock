@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="DesktopClock logo">
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#263044"/>
+      <stop offset="1" stop-color="#0b0f17"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect x="46" y="46" width="932" height="932" rx="220" fill="url(#plate)"/>
+  <rect x="46" y="46" width="932" height="932" rx="220" fill="none"
+        stroke="#ffffff" stroke-opacity="0.13" stroke-width="4"/>
+  <circle cx="512" cy="512" r="360" fill="url(#glow)"/>
+
+  <circle cx="512" cy="512" r="302" fill="none" stroke="#ffffff" stroke-width="56"/>
+
+  <g stroke="#ffffff" stroke-opacity="0.75" stroke-width="13" stroke-linecap="round">
+    <line x1="512" y1="240" x2="512" y2="273"/>
+    <line x1="751" y1="512" x2="784" y2="512"/>
+    <line x1="512" y1="751" x2="512" y2="784"/>
+    <line x1="240" y1="512" x2="273" y2="512"/>
+  </g>
+
+  <line x1="512" y1="464" x2="512" y2="754" stroke="#52aaff"
+        stroke-width="16" stroke-linecap="round"/>
+  <circle cx="512" cy="754" r="16" fill="#52aaff"/>
+
+  <line x1="512" y1="512" x2="376" y2="434" stroke="#ffffff"
+        stroke-width="52" stroke-linecap="round"/>
+  <line x1="512" y1="512" x2="700" y2="403" stroke="#ffffff"
+        stroke-width="44" stroke-linecap="round"/>
+
+  <circle cx="512" cy="512" r="53" fill="#ffffff"/>
+  <circle cx="512" cy="512" r="26" fill="#52aaff"/>
+</svg>
